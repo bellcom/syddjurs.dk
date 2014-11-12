@@ -19,7 +19,8 @@ function os2web_core_theme_preprocess_html(&$variables) {
   drupal_add_js($theme_path . '/js/script.js');
   drupal_add_js($theme_path . '/js/jquery.phonenumber.js');
   drupal_add_js($theme_path . '/js/os2web_menus.js');
-
+  drupal_add_js($theme_path . '/js/jquery.tooltip.js');
+  drupal_add_js($theme_path . '/js/contact_text_tooltip.js');
   // Add a vegas background from the background node.
 /*  if (function_exists('bg_image_get_image_path_from_node')) {
     $bg_nid = db_select('node', 'n')
